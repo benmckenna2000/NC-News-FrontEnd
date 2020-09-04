@@ -1,0 +1,38 @@
+.header {
+  background-color:#f5f3f3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px solid;
+}
+
+.header:link{
+  text-decoration: none;
+}
+
+.header__nav{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__option {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  text-align: center;
+}
+
+.header__buttonOne{
+  margin-left: 100px;
+  text-align: center;
+}
+.header__buttonTwo {
+  margin-right: 1000px;
+  text-align: center;
+}
+

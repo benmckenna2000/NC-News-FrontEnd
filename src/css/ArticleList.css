@@ -1,0 +1,48 @@
+.articleList__article{
+    list-style: none;
+    text-align: center;
+    border: double 4px red;
+    padding: 1rem;
+    background-color: #f5f3f3;
+    margin: 1rem 5rem;
+    border-radius: 4px ;
+}
+
+.articleList__title{
+    text-decoration: underline;
+}
+
+.articleList__author{
+    text-align: left;
+}
+
+.articleList__header{
+    width: 100;
+    border-bottom:double 4px red;
+    margin:0;
+    padding: 1rem;
+}
+
+.articleList__button{
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    transition: 0.3s;
+    width: 7rem;
+    height: 2rem;
+}
+
+.articleList__button:hover {
+    background-color: rgb(238, 238, 238);
+    border-bottom: 2px solid red;
+  }
+
+.articleList__comment{
+    margin-bottom: 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .articleList__article{
+        margin: 1rem 2rem;
+    }
+}

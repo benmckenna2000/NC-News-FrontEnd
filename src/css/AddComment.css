@@ -1,0 +1,13 @@
+.addComment__button{
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    transition: 0.3s;
+    width: 5rem;
+    height: 2rem;
+}
+.addComment__button:hover{
+    background-color: rgb(238, 238, 238);
+  border-bottom: 2px solid red;
+}
+
